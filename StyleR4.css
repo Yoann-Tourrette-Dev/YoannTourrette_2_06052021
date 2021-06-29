@@ -504,38 +504,36 @@ form
 
 .a2img 
 {
-    height: 200px;
+    height: 160px;
 }
 
 .a3img 
 {
-    height: 110px;
+    height: 160px;
 }
 
 .a5img 
 {
-    height: 140px;
+    height: 160px;
 }
 
 .a6img 
 {
-    height: 140px;
+    height: 160px;
 }
 
 .a_txt 
 {
-    padding: 0 0px 5px 20px;
+    padding: 0px 0px 5px 20px;
 }
 
-.a2 
+.a2,
+.a5
 {
-    margin: 0px 0px 61px;
+    margin: 0px 0px 52px;
 }
 
-.a5 
-{
-    margin: 0px 0px 92px;
-}
+
 	/*footer*/
 
 footer
@@ -571,7 +569,7 @@ footer
 
          header 
         {
-            margin: 0;
+            margin: 0px;
             width: 100%;
             padding-left: 0px;
             padding-top: 5px;
@@ -612,7 +610,7 @@ footer
 
         .linknav 
         {
-            padding: 10px 40px 5px 40px;
+            padding: 10px 60px 5px 60px;
            
         }
 
@@ -701,7 +699,6 @@ footer
         {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
         }
         .hostings
         {
@@ -709,18 +706,14 @@ footer
             height: 210px;
             font-size: 14px;
         }
-        .blok_title
-        {
-            margin-left: 10px;
-        }
 
         /* pop*/
 
         #blok2
         {
             width: 100%;
-            margin: 0px;
-            padding: 0px;
+            margin: 0;
+            padding: 0;
             order: 1;
             border-radius: 0px;
         }
@@ -730,8 +723,6 @@ footer
             padding: 5px;
             margin: 8px;
             font-size: 14px;
-            display: flex;
-            justify-content: center;
 
         }
 
@@ -741,10 +732,9 @@ footer
         {
             height: auto;
             margin-bottom: 25px;
-            display: flex;
-            justify-content:center;
+            justify-content: normal;
             width: 100%;
-            margin:10px;
+            padding-left: 7px;
         }
         .A 
         {
@@ -769,7 +759,7 @@ footer
             box-shadow: 0 5px 16px #0000002e;
            
         }
-        
+    
         /*footer*/
 
         footer
@@ -784,7 +774,226 @@ footer
             margin-left: 0px;
             padding-right: 0px;
         }
- 
         }
+        
+
+    @media (min-width: 768px) and (max-width: 1024px) /* tablette */ {
+        
+        body
+        {
+            margin:0px;
+        }
+
+        /* header*/
+
+        header 
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+       .linknav
+        {
+            padding-left:30px;
+            padding-right: 30px;
+            margin:0px;
+        }
+        #signin
+        {
+            padding-left:30px;
+            padding-right: 30px;
+            margin:0px;
+        }
+        .navheader
+        {
+           display: flex;
+           justify-content: space-between&;
+        }
+        #subtitle
+        {
+            background-color: #DEEBFF;
+            color: #0065FC;
+            padding: 20px;
+            margin:0px;
+        }
+        #h2sub
+        {
+            display: flex;
+            justify-content: center;
+        }
+       
+        .psub
+        {
+            display: flex;
+            justify-content:center;
+        }
+    
+        /* rechercher */
+    
+        .searchingtool
+        {
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            width:95%
+
+        }
+        .type-search
+        {
+            text-align: center;
+        }
+        .rechercher
+        {
+            display: none;
+        }
+        .fa_search
+        {
+            display: inline;
+            background-color: #0065FC;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            width: 40px;
+            height: 40px;
+            border: none;
+            color: white;
+            font-weight: bold;
+        }
+    
+        /* filtres */
+        #filters 
+        {
+            margin: 0px;
+            padding-top:15px;
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        .info 
+        {
+            display: flex;
+            justify-content: center;
+        }
+    
+        /* hebergements */
+    
+        .hostingspophostings
+        {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+    
+        
+    
+        /* Marseille */
+    
+        #blok1
+        {
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 20px;
+            border-radius: 0;
+        }
+        .blok_title
+        {
+            text-align: center;
+        }
+        /* pop */
+    
+        #blok2
+        {
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 20px;
+            border-radius: 0;
+            
+        }
+        .pop
+        {
+            display: flex;
+            justify-content: space-around;
+        }
+        .pop_hostings
+        {
+            margin-right: 10px;
+            margin-left: 10px;
+            height: 85%;
+        }
+
+        /*activites*/
+
+        #Activites
+        {
+            width: 
+            
+        }
+        .activities
+        {
+            width: 90%;
+            margin:auto;
+            margin-top: 20px;
+            margin-bottom: 50px;
+           
+        }
+        .a1_4img 
+        {
+            height: 400px;
+        }
+        
+        .a2img 
+        {
+            height: 150px;
+        }
+        
+        .a3img 
+        {
+            height: 150px;
+        }
+        
+        .a5img 
+        {
+            height: 150px;
+        }
+        
+        .a6img 
+        {
+            height: 150px;
+        }
+
+        .a2,
+        .a5
+        {
+            margin: 0px 0px 50px;
+        }
+
+        .a_txt
+        {
+            font-size:70%;
+        }
+        /* footer*/
+
+        footer
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+        #about,
+        #hostings,
+        #help
+        {
+           padding:0px;
+           margin-left: auto;
+           margin-right: auto;
+
+        }
+           
+
+            
+     
+ 
+}
 
         
