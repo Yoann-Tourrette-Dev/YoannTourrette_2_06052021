@@ -807,7 +807,7 @@ footer
         .navheader
         {
            display: flex;
-           justify-content: space-between&;
+           justify-content: space-between;
         }
         #subtitle
         {
@@ -925,11 +925,7 @@ footer
 
         /*activites*/
 
-        #Activites
-        {
-            width: 
-            
-        }
+    
         .activities
         {
             width: 95%;
@@ -987,13 +983,5 @@ footer
            padding:0px;
            margin-left: auto;
            margin-right: auto;
-
         }
-           
-
-            
-     
- 
-}
-
-        
+    }
