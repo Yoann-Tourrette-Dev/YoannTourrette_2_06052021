@@ -559,7 +559,7 @@ footer
 }
 
         /*responsive*/
-        @media (min-width: 300px) and (max-width: 767px) /* mobiles */ {
+        @media (min-width: 300px) and (max-width: 640px) /* mobiles */ {
 
         body
         {
@@ -782,7 +782,7 @@ footer
         }
         
 
-    @media (min-width: 768px) and (max-width: 1024px) /* tablette */ {
+    @media (min-width: 741px) and (max-width: 1024px) /* tablette */ {
         
         body
         {
