@@ -1,26 +1,26 @@
 @font-face
  {
 	    font-family: 'Raleway-VariableFont';
-	    src:url('public/Polices/Raleway-VariableFont_wght.ttf');
-	    src:url('public/Polices/Raleway-VariableFont_wght.ttf') format('truetype'),
-	    	url('public/Polices/static/Raleway-Thin.ttf') format('truetype'),
-  			url('public/Polices/static/Raleway-ExtraLight.ttf') format('truetype'),
-  			url('public/Polices/static/Raleway-Light.ttf') format('truetype'),
- 			url('public/Polices/static/Raleway-Regular.ttf') format('truetype'),
- 			url('public/Polices/static/Raleway-Medium.ttf') format('truetype'),
- 			url('public/Polices/static/Raleway-SemiBold.ttf') format('truetype'),
-			url('public/Polices/static/Raleway-Bold.ttf') format('truetype'),
-			url('public/olices/static/Raleway-ExtraBold.ttf') format('truetype'),
-			url('public/Polices/static/Raleway-Black.ttf') format('truetype'),
-			url('public/Polices/static/Raleway-ThinItalic.ttf') format('truetype'),
-			url('public/Polices/static/Raleway-ExtraLightItalic.ttf') format('truetype'),
-			url('public/Polices/static/Raleway-LightItalic.ttf') format('truetype'),
-			url('public/Polices/static/Raleway-Italic.ttf') format('truetype'),
-			url('public/Polices/static/Raleway-MediumItalic.ttf') format('truetype'),
-			url('public/Polices/static/Raleway-SemiBoldItalic.ttf') format('truetype'),
-			url('public/Polices/static/Raleway-BoldItalic.ttf') format('truetype'),
-			url('public/Polices/static/Raleway-ExtraBoldItalic.ttf') format('truetype'),
-			url('public/Polices/static/Raleway-BlackItalic.ttf') format('truetype');
+	    src:url('Polices/Raleway-VariableFont_wght.ttf');
+	    src:url('Polices/Raleway-VariableFont_wght.ttf') format('truetype'),
+	    	url('Polices/static/Raleway-Thin.ttf') format('truetype'),
+  			url('Polices/static/Raleway-ExtraLight.ttf') format('truetype'),
+  			url('Polices/static/Raleway-Light.ttf') format('truetype'),
+ 			url('Polices/static/Raleway-Regular.ttf') format('truetype'),
+ 			url('Polices/static/Raleway-Medium.ttf') format('truetype'),
+ 			url('Polices/static/Raleway-SemiBold.ttf') format('truetype'),
+			url('Polices/static/Raleway-Bold.ttf') format('truetype'),
+			url('Polices/static/Raleway-ExtraBold.ttf') format('truetype'),
+			url('Polices/static/Raleway-Black.ttf') format('truetype'),
+			url('Polices/static/Raleway-ThinItalic.ttf') format('truetype'),
+			url('Polices/static/Raleway-ExtraLightItalic.ttf') format('truetype'),
+			url('Polices/static/Raleway-LightItalic.ttf') format('truetype'),
+			url('Polices/static/Raleway-Italic.ttf') format('truetype'),
+			url('Polices/static/Raleway-MediumItalic.ttf') format('truetype'),
+			url('Polices/static/Raleway-SemiBoldItalic.ttf') format('truetype'),
+			url('Polices/static/Raleway-BoldItalic.ttf') format('truetype'),
+			url('Polices/static/Raleway-ExtraBoldItalic.ttf') format('truetype'),
+			url('Polices/static/Raleway-BlackItalic.ttf') format('truetype');
 
 }
 
